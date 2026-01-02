@@ -66,6 +66,12 @@ Downloads/Playlist Name/
 ```
 
 ---
+## 📦 FFmpeg Notice
+
+Due to GitHub file size limits, FFmpeg is **not included** in this repository.
+
+The downloader will **automatically download FFmpeg on first run** if it is not found.
+No manual setup is required.
 
 ## 🎥 Download Features
 
