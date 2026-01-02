@@ -10,7 +10,8 @@ echo.
 :: Check yt-dlp
 if not exist yt-dlp.exe (
   echo ❌ yt-dlp.exe not found!
-  echo Please download yt-dlp.exe and place it here.
+  echo Download it from:
+  echo https://github.com/yt-dlp/yt-dlp/releases/latest
   pause
   exit
 )
@@ -18,7 +19,8 @@ if not exist yt-dlp.exe (
 :: Check ffmpeg
 if not exist ffmpeg.exe (
   echo.
-  echo FFmpeg not found. Downloading...
+  echo FFmpeg not found.
+  echo Downloading FFmpeg automatically...
   echo.
 
   powershell -Command ^
